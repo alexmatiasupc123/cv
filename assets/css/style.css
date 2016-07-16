@@ -20,8 +20,8 @@ img {
 	height: auto;
 }
 
-a {
-	color: #EF4836;
+a { /*#EF4836*/
+	color: #428bca;
 }
 
 a:hover {
@@ -120,9 +120,9 @@ a,
 .modal-content,
 .panel-group .panel,
 .widget-social li a {
-	-webkit-border-radius: 3px;
-	   -moz-border-radius: 3px;
-		 -o-border-radius: 3px;
+	border-radius: 3px;
+	   border-radius: 3px;
+		 border-radius: 3px;
 			border-radius: 3px;
 }
 
@@ -203,7 +203,7 @@ a,
 
 .btn-custom-1, .btn-custom-2 {
 	background: transparent;
-	border: 2px solid #EF4836;
+	border: 2px solid #428bca;
 	padding: 15px 25px;
 }
 
@@ -212,8 +212,8 @@ a,
 }
 
 .btn-custom-1:hover, .btn-custom-1:focus, .btn-custom-1:active, .btn-custom-1.active {
-	background: #EF4836;
-	border: 2px solid #EF4836;
+	background: #428bca;
+	border: 2px solid #428bca;
 	color: #FFF;
 }
 
@@ -369,7 +369,7 @@ a,
 
 .icon-list {
 	list-style: none;
-	padding: 0px;
+	padding: 0;
 }
 
 .icon-list > li > i {
@@ -448,7 +448,8 @@ h3 > .fa {
 .navbar-custom .nav li.active {
 	background: none;
 	outline: 0;
-	color: #EF4836;
+	color: #428bca;
+    font-weight:bold;
 }
 
 .navbar-custom .navbar-brand {
